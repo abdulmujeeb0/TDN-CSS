@@ -1,7 +1,11 @@
+*{
+    font-family: "Nunito",san-serif;
+}
 body{
    background-color:aliceblue;
    margin: 0; 
-   padding: 0;
+   padding-left: 50px;
+   padding-right: 50px;
    justify-content: center;
    align-items: center;
    height: 100vh;
@@ -11,14 +15,36 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 1.5rem;
+    height: 50px;
+    margin-bottom: 200px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .icon img{
-    width: 10rem;
+    width: 15rem;
+}
+.navlinks a{
+    justify-content: space-around;
+    display: flex;
+    gap: 5rem;
 }
 .navlinks a{
     text-decoration: none;
     color: black;
     gap: 1.5rem;
+}
+.navbutton {
+    background-color: teal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.navbutton a{
+    text-decoration: none;
+    font-weight: ;
 }
 /* First Section Styling begin here...... */
 .first{
@@ -63,4 +89,26 @@ body{
     height: 100%;
     border-radius: 10px;
 }
+/* Second section styling begins */
+.container{
+    background-color: teal;
+    height: 34%;
+    width: 90%;
+    justify-self: center;
+    padding-right: 10rem;
+    border-radius: 10px;
+}
+.head {
+    padding-left: 25rem;
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+}
+.alphabets {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+ }
+
+
 
