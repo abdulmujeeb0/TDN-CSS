@@ -3,12 +3,17 @@
 }
 body{
    background-color:aliceblue;
-   margin: 0; 
-   padding-left: 50px;
-   padding-right: 50px;
-   justify-content: center;
-   align-items: center;
    height: 100vh;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.top{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 120px;
 }
 /* Navbar Styling Start Here */
 .wrapper{
@@ -20,6 +25,9 @@ body{
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
+    background-color: white;
+    box-shadow: box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;;
+    
 }
 .icon img{
     width: 15rem;
@@ -123,7 +131,7 @@ body{
      colorweight
      font-weight: ;
 }
-.meta{
+.memo{
     display: flex;
 }
 .texts{
@@ -148,7 +156,7 @@ body{
     margin-top: 80px ;
     margin-left: 20rem;
 }
-.fifth.meta{
+.meta{
     text-decoration: none;
     padding-left: 50px;
     padding-right: 50px;
@@ -159,6 +167,29 @@ body{
     border-radius: 0.5rem;
     margin-left: 12rem;
     font-weight: bolder;
+}
+.down{
+    background-color: white;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.last ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 3px;
+}
+.last .dummy{
+    line-height:  2rem;
+}
+.last .dummy a{
+    text-decoration: none;
+    color: black;
 }
 
 
