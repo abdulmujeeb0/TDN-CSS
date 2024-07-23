@@ -24,7 +24,7 @@ body{
 .icon img{
     width: 15rem;
 }
-.navlinks a{
+.navlinks {
     justify-content: space-around;
     display: flex;
     gap: 5rem;
@@ -44,11 +44,15 @@ body{
 }
 .navbutton a{
     text-decoration: none;
-    font-weight: ;
+    font-weight: bolder;
+    color: white;
 }
 /* First Section Styling begin here...... */
 .first{
     display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    
 }
 .text {
     padding: 40px;
@@ -62,7 +66,6 @@ body{
 }
 .text p{
     width: 30rem;
-
 }
 .button {
     margin-top: 20px;
@@ -79,6 +82,8 @@ body{
     padding-right: 10px;
     padding-left: 20px;
     margin-right: 20px;
+    justify-content: right;
+    align-items: right;
 }
 .grid {
     max-width: 50%;
@@ -109,6 +114,53 @@ body{
     color: white;
     justify-content: space-evenly;
  }
+ .rat{
+    line-height: 20px;
+ }
+ .rat a{
+     text-decoration: none;
+     color: teal;
+     colorweight
+     font-weight: ;
+}
+.meta{
+    display: flex;
+}
+.texts{
+    width: 30rem;
+}
+.meto{
+    display: flex;
+}
+.table{
+    width: 30rem;
+}
+.rat h2{
+    font-size: 20px;
+}
+.rat{
+    margin-top: 80px;
+}
+.fourth{
+    margin-top: 80px;
+}
+.fifth{
+    margin-top: 80px ;
+    margin-left: 20rem;
+}
+.fifth.meta{
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: teal;
+    color: white;
+    border-radius: 0.5rem;
+    margin-left: 12rem;
+    font-weight: bolder;
+}
+
 
 
 
